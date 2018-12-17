@@ -4,7 +4,14 @@
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
 
 
-// Aquí tu código
+// Aquí tu códi
+var obj = new Object;
+obj.a={
+    "b":true,
+    "c":['hola',1],
+}
+obj.d=6;
+obj.f='aaaa';
 
 // Hasta aquí
 
@@ -23,7 +30,7 @@ if (typeof obj.a.b === 'boolean') {
 }
 
 // TEST 3
-if (typeof obj.a.c[1] === 'number') {
+if (typeof obj.a.c[1] === 'number') { //numero, no la cadena number
     console.log('apruebas');
 } else {
     console.log('suspendes');
@@ -47,7 +54,7 @@ if (typeof obj.f === 'string') {
 } else {
     console.log('suspendes');
 }
-// TEST 6
+// TEST 7
 if ( obj.f.length === 4) {
     console.log('apruebas');
 } else {
