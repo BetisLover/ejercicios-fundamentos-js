@@ -8,12 +8,21 @@
 
 // Ha de pasar los test adjuntados.
 
-let ultimoCaracter = (texto) => {
+/*let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
   
 
 
     // Hasta aquí.
+}*/
+function ultimoCaracter(palabra){
+    if(typeof palabra==="string"){
+        return console.log(palabra.charAt(palabra.length-1));
+    }else if(palabra!==null){
+        return console.log('Debo ser ejecutada con un string no vacío');
+    }else{
+        return console.log('Debo ser ejecutada con un string');
+    }
 }
 
 

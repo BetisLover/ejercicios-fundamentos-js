@@ -21,7 +21,6 @@ function caracterInicial(c){
     }else{
         return console.log('Debo ser ejecutada con un string');
     }
-
 }
 
 

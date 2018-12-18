@@ -6,11 +6,21 @@
 
 // Ha de pasar los test adjuntados.
 
-let cuentaCaracteres = (texto) => {
+/*let cuentaCaracteres = (texto) => {
     // Aquí tu código.  Desde aquí:
    
     
     // Hasta aquí.
+}*/
+function cuentaCaracteres(c){
+    if(typeof c==="string"){
+        var caracteres=c.length-1;
+        return console.log(caracteres);
+    }else if(c!==null){
+        return console.log('Debo ser ejecutada con un string no vacío');
+    }else{
+        return console.log('Debo ser ejecutada con un string');
+    }
 }
 
 

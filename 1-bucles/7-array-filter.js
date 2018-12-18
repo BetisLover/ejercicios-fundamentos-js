@@ -35,3 +35,7 @@ let gente = [{
     },
 ]
 
+var resultado = gente.filter(function(persona){
+    return persona.nombre.charAt(0)==='J' & persona.edad <40;
+});
+console.log(resultado);

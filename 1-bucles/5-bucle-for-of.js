@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+
+for(var value of gente){
+    if(value.nombre.substring(0,1)==='J'){
+        console.log(value);
+    }
+} 
